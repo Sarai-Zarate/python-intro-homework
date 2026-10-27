@@ -9,5 +9,5 @@ student = {
 for key, value in student.items():
     print(f"{key}: {value}")
 
-student["graduated"] = "False"
+student["graduated"] = False
 print(student)
